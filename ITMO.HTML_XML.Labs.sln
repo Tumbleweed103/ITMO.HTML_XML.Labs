@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{5B06D84D-0234-457B-8D8E-2AF2B56E95F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab01", "Lab01", "{30AAA88C-FCD7-4D6B-9215-9CEABA2355EE}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab01\ex1.html = HTML\Lab01\ex1.html
+		HTML\Lab01\ex2.html = HTML\Lab01\ex2.html
+		HTML\Lab01\ex3.html = HTML\Lab01\ex3.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab02", "Lab02", "{58B3B905-E187-4EDD-9F9B-0DB078FF5A72}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab02\classification.html = HTML\Lab02\classification.html
+		HTML\Lab02\code.html = HTML\Lab02\code.html
+		HTML\Lab02\findings.html = HTML\Lab02\findings.html
+		HTML\Lab02\index.html = HTML\Lab02\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab03", "Lab03", "{3A23A08B-7799-45FB-A7FC-8E7DEA432B06}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab03\about_buttons.html = HTML\Lab03\about_buttons.html
+		HTML\Lab03\classification.html = HTML\Lab03\classification.html
+		HTML\Lab03\ex4.html = HTML\Lab03\ex4.html
+		HTML\Lab03\index.html = HTML\Lab03\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab04", "Lab04", "{C99A6246-1BCE-42A8-975F-7661BECDCC60}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab04\ex5.html = HTML\Lab04\ex5.html
+		HTML\Lab04\table.html = HTML\Lab04\table.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab05", "Lab05", "{9E9F605A-5C7B-4DB1-9D09-EF5EC5A0A44F}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab05\classification.html = HTML\Lab05\classification.html
+		HTML\Lab05\ex6.html = HTML\Lab05\ex6.html
+		HTML\Lab05\index.html = HTML\Lab05\index.html
+		HTML\Lab05\map.html = HTML\Lab05\map.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab06", "Lab06", "{C8D03D85-5383-49A4-AEA4-10A336B14D8D}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab06\ex7.html = HTML\Lab06\ex7.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab07", "Lab07", "{7A9C2465-2F75-4CA7-8B2E-0BAACD693BEC}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab07\block_1.css = HTML\Lab07\block_1.css
+		HTML\Lab07\block_1.html = HTML\Lab07\block_1.html
+		HTML\Lab07\block_2.css = HTML\Lab07\block_2.css
+		HTML\Lab07\block_2.html = HTML\Lab07\block_2.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{A2F7DA98-2824-4959-8A55-FEA836B149D9}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab01\img\screenshot.png = HTML\Lab01\img\screenshot.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{842BC9A5-38A3-4136-A88F-404885AF669C}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab05\images\button_1.jpg = HTML\Lab05\images\button_1.jpg
+		HTML\Lab05\images\button_4.jpg = HTML\Lab05\images\button_4.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "video", "video", "{B9523252-7BDB-4277-B881-156240C55D91}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab05\video\video.mp4 = HTML\Lab05\video\video.mp4
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4B086765-9382-4713-A91A-0DD0882E5959}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab06\images\enot.jpg = HTML\Lab06\images\enot.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30AAA88C-FCD7-4D6B-9215-9CEABA2355EE} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{58B3B905-E187-4EDD-9F9B-0DB078FF5A72} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{3A23A08B-7799-45FB-A7FC-8E7DEA432B06} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{C99A6246-1BCE-42A8-975F-7661BECDCC60} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{9E9F605A-5C7B-4DB1-9D09-EF5EC5A0A44F} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{C8D03D85-5383-49A4-AEA4-10A336B14D8D} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{7A9C2465-2F75-4CA7-8B2E-0BAACD693BEC} = {5B06D84D-0234-457B-8D8E-2AF2B56E95F4}
+		{A2F7DA98-2824-4959-8A55-FEA836B149D9} = {30AAA88C-FCD7-4D6B-9215-9CEABA2355EE}
+		{842BC9A5-38A3-4136-A88F-404885AF669C} = {9E9F605A-5C7B-4DB1-9D09-EF5EC5A0A44F}
+		{B9523252-7BDB-4277-B881-156240C55D91} = {9E9F605A-5C7B-4DB1-9D09-EF5EC5A0A44F}
+		{4B086765-9382-4713-A91A-0DD0882E5959} = {C8D03D85-5383-49A4-AEA4-10A336B14D8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0268EFEE-3DBF-4ED3-9399-8E33A80C2096}
+	EndGlobalSection
+EndGlobal
