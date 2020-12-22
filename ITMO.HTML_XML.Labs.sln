@@ -76,6 +76,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4B0867
 		HTML\Lab06\images\enot.jpg = HTML\Lab06\images\enot.jpg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{DB6EE1D1-874C-4802-B396-43D9B8BD8D8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab01", "Lab01", "{B6BBBC76-F379-438A-9F40-D5D92BDF65C1}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab01\classification.html = CSS\Lab01\classification.html
+		CSS\Lab01\index.html = CSS\Lab01\index.html
+		CSS\Lab01\style.css = CSS\Lab01\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{FD525175-79EE-493A-BF03-2D99BDBFDE8E}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab01\images\button_1.jpg = CSS\Lab01\images\button_1.jpg
+		CSS\Lab01\images\button_3.png = CSS\Lab01\images\button_3.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +107,8 @@ Global
 		{842BC9A5-38A3-4136-A88F-404885AF669C} = {9E9F605A-5C7B-4DB1-9D09-EF5EC5A0A44F}
 		{B9523252-7BDB-4277-B881-156240C55D91} = {9E9F605A-5C7B-4DB1-9D09-EF5EC5A0A44F}
 		{4B086765-9382-4713-A91A-0DD0882E5959} = {C8D03D85-5383-49A4-AEA4-10A336B14D8D}
+		{B6BBBC76-F379-438A-9F40-D5D92BDF65C1} = {DB6EE1D1-874C-4802-B396-43D9B8BD8D8F}
+		{FD525175-79EE-493A-BF03-2D99BDBFDE8E} = {B6BBBC76-F379-438A-9F40-D5D92BDF65C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0268EFEE-3DBF-4ED3-9399-8E33A80C2096}
