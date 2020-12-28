@@ -1,29 +1,21 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.itmo.ru/xml/lessons" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:lessons="http://www.itmo.ru/xml/lessons" targetNamespace="lessons" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="Timetable">
 		<xs:complexType>
-			<xs:choice maxOccurs="unbounded" minOccurs="0">
-				<xs:element name="CourseName">
+			<xs:sequence>
+				<xs:element name="Course">
 					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-								<xs:attribute type="xs:byte" name="id"/>
-							</xs:extension>
-						</xs:simpleContent>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="DateBegin" type="xs:string"/>
+							<xs:element name="DateEnd" type="xs:string"/>
+							<xs:element name="Lecturer" type="xs:string"/>
+							<xs:element name="Hours" type="xs:int"/>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:int" use="optional"/>
 					</xs:complexType>
 				</xs:element>
-				<xs:element type="xs:string" name="DateBegin"/>
-				<xs:element type="xs:string" name="DateEnd"/>
-				<xs:element type="xs:string" name="Lecturer"/>
-				<xs:element name="Hours">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:string">
-								<xs:attribute type="xs:byte" name="id" use="optional"/>
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
-				</xs:element>
-			</xs:choice>
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>

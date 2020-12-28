@@ -1,34 +1,46 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 
 <lessons:Timetable xmlns:lessons = "http://www.itmo.ru/xml/lessons">
-	<lessons:CourseName id = "1">Технологии программирования</lessons:CourseName>
+	<lessons:Course id = "1">
+		<lessons:Name>Технологии программирования</lessons:Name>
 		<lessons:DateBegin>29.09.2020</lessons:DateBegin>
 		<lessons:DateEnd>16.10.2020</lessons:DateEnd>
 		<lessons:Lecturer>Осипов Н.А.</lessons:Lecturer>
 		<lessons:Hours>50</lessons:Hours>
-	<lessons:CourseName id = "2">Программирование на C#</lessons:CourseName>
+	</lessons:Course>
+	<lessons:Course id = "2">
+		<lessons:Name>Программирование на C#</lessons:Name>
 		<lessons:DateBegin>19.10.2020</lessons:DateBegin>
 		<lessons:DateEnd>06.11.2020</lessons:DateEnd>
 		<lessons:Lecturer>Осипов Н.А.</lessons:Lecturer>
 		<lessons:Hours>50</lessons:Hours>
-	<lessons:CourseName id = "3">Введение в базы данных</lessons:CourseName>
+	</lessons:Course>
+	<lessons:Course id = "3">
+		<lessons:Name>Введение в базы данных</lessons:Name>
 		<lessons:DateBegin>09.11.2020</lessons:DateBegin>
 		<lessons:DateEnd>20.11.2020</lessons:DateEnd>
 		<lessons:Lecturer>Осетрова И.С.</lessons:Lecturer>
 		<lessons:Hours>30</lessons:Hours>
-	<lessons:CourseName id = "4">Разработка Windows-приложений на C#</lessons:CourseName>
+	</lessons:Course>
+	<lessons:Course id = "4">
+		<lessons:Name>Разработка Windows-приложений на C#</lessons:Name>
 		<lessons:DateBegin>23.11.2020</lessons:DateBegin>
 		<lessons:DateEnd>11.12.2020</lessons:DateEnd>
 		<lessons:Lecturer>Смольянинов А.В.</lessons:Lecturer>
 		<lessons:Hours>50</lessons:Hours>
-	<lessons:CourseName id = "5">Основы технологий разметки(HTML, XML)</lessons:CourseName>
+	</lessons:Course>
+	<lessons:Course id = "5">
+		<lessons:Name>Основы технологий разметки(HTML, XML)</lessons:Name>
 		<lessons:DateBegin>14.12.2020</lessons:DateBegin>
 		<lessons:DateEnd>18.12.2020</lessons:DateEnd>
 		<lessons:Lecturer>Смольянинов А.В.</lessons:Lecturer>
 		<lessons:Hours>20</lessons:Hours>
-	<lessons:CourseName id = "6">Transact-SQL и Разработка Microsoft SQL Server</lessons:CourseName>
+	</lessons:Course>
+	<lessons:Course id = "6">
+		<lessons:Name>Transact-SQL и Разработка Microsoft SQL Server</lessons:Name>
 		<lessons:DateBegin>21.12.2020</lessons:DateBegin>
 		<lessons:DateEnd>29.12.2020</lessons:DateEnd>
 		<lessons:Lecturer>Ямщиков Д.В.</lessons:Lecturer>
 		<lessons:Hours>25</lessons:Hours>
+	</lessons:Course>
 </lessons:Timetable>
