@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE TimeTable SYSTEM "library.dtd">
+
+<library>
+	<book_catalog>
+		<book id="1" isbn=" 978-5-699-65494-9" year="1865" issue="original">
+			<authors>
+				<author>Лев Толстой.</author>
+			</authors>
+			<title>Война и мир</title>
+			<publishing>Эксмо</publishing>
+			<annotation>"Хорошо известный классический роман-эпопея Льва Толстого рассказывает о сложном, бурном периоде в истории России и всей Европы — эпохе завоевательных походов императора Наполеона в Восточную Европу и Россию, с 1805 по 1812 год."</annotation>
+		</book>
+		<book id="2" isbn="978-5-17-101063-8" year="1945" issue="translation">
+			<authors>
+				<author>Джордж Оруэлл</author>
+			</authors>
+			<title>Скотный двор</title>
+			<publishing>АСТ</publishing>
+			<annotation>"Ироничная и одновременно печальная история об осквернении идей социализма тиранами, рассказана автором в форме сказки, где в роли людей выступают животные заурядной британской фермы."</annotation>
+		</book>
+		<book id="3" year= "2015" issue="translation">
+			<authors>
+				<author>Элиезер Юдковский</author>
+			</authors>
+			<title>Гарри Поттер и методы рационального мышления</title>
+			<publishing>ИПК Парето-Принт</publishing>
+			<annotation>"Петуния вышла замуж не за Дурсля, а за университетского профессора, и Гарри попал в гораздо более благоприятную среду. У него были частные учителя, дискуссии с отцом, а главное — книги, сотни и тысячи научных и фантастических книг. В результате в 11 лет Гарри знаком с квантовой механикой, теорией вероятностей и другими полезными вещами. И главное — он очень рациональный, а это похлеще, чем укус радиоактивного паука."</annotation>
+		</book>
+	</book_catalog>
+	<author_catalog>
+		<author_book idref="1"></author_book>
+		<author_book idref="2"></author_book>
+		<author_book idref="3"></author_book>
+	</author_catalog>
+</library>

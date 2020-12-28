@@ -1,0 +1,29 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.itmo.ru/xml/lessons" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Timetable">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded" minOccurs="0">
+				<xs:element name="CourseName">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="id"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element type="xs:string" name="DateBegin"/>
+				<xs:element type="xs:string" name="DateEnd"/>
+				<xs:element type="xs:string" name="Lecturer"/>
+				<xs:element name="Hours">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="id" use="optional"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

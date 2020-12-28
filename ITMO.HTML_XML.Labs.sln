@@ -96,6 +96,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab02", "Lab02", "{96DB4E4F
 		CSS\Lab02\about_buttons.html = CSS\Lab02\about_buttons.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{2C898160-DEF5-48CF-94F0-0B63D9363DC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab01", "Lab01", "{8645D84B-7542-4C46-94F3-54217E28D619}"
+	ProjectSection(SolutionItems) = preProject
+		XML\Lab01\lessons.xml = XML\Lab01\lessons.xml
+		XML\Lab01\resume.xml = XML\Lab01\resume.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab02", "Lab02", "{6098722E-5F36-4DE9-A701-7A63ADCD5CA1}"
+	ProjectSection(SolutionItems) = preProject
+		XML\Lab02\lessons.xml = XML\Lab02\lessons.xml
+		XML\Lab02\lessons_DTD.dtd = XML\Lab02\lessons_DTD.dtd
+		XML\Lab02\library.dtd = XML\Lab02\library.dtd
+		XML\Lab02\library.xml = XML\Lab02\library.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab03", "Lab03", "{C77A8D6F-8526-4996-9429-7D2F19CBCBE2}"
+	ProjectSection(SolutionItems) = preProject
+		XML\Lab03\lessons.xml = XML\Lab03\lessons.xml
+		XML\Lab03\lessons_XML.xsd = XML\Lab03\lessons_XML.xsd
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +137,9 @@ Global
 		{B6BBBC76-F379-438A-9F40-D5D92BDF65C1} = {DB6EE1D1-874C-4802-B396-43D9B8BD8D8F}
 		{FD525175-79EE-493A-BF03-2D99BDBFDE8E} = {B6BBBC76-F379-438A-9F40-D5D92BDF65C1}
 		{96DB4E4F-EC59-45F4-B72A-7F701A640FED} = {DB6EE1D1-874C-4802-B396-43D9B8BD8D8F}
+		{8645D84B-7542-4C46-94F3-54217E28D619} = {2C898160-DEF5-48CF-94F0-0B63D9363DC2}
+		{6098722E-5F36-4DE9-A701-7A63ADCD5CA1} = {2C898160-DEF5-48CF-94F0-0B63D9363DC2}
+		{C77A8D6F-8526-4996-9429-7D2F19CBCBE2} = {2C898160-DEF5-48CF-94F0-0B63D9363DC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0268EFEE-3DBF-4ED3-9399-8E33A80C2096}

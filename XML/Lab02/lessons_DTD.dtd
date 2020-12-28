@@ -1,0 +1,26 @@
+<!ELEMENT lessons:Timetable (lessons:CourseName|lessons:DateBegin
+                             |lessons:DateEnd|lessons:Hours
+                             |lessons:Lecturer)+>
+<!ATTLIST lessons:Timetable
+  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
+
+<!ELEMENT lessons:CourseName (#PCDATA)>
+<!ATTLIST lessons:CourseName
+  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'
+  id CDATA #REQUIRED>
+
+<!ELEMENT lessons:DateBegin (#PCDATA)>
+<!ATTLIST lessons:DateBegin
+  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
+
+<!ELEMENT lessons:DateEnd (#PCDATA)>
+<!ATTLIST lessons:DateEnd
+  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
+
+<!ELEMENT lessons:Hours (#PCDATA)>
+<!ATTLIST lessons:Hours
+  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
+
+<!ELEMENT lessons:Lecturer (#PCDATA)>
+<!ATTLIST lessons:Lecturer
+  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
