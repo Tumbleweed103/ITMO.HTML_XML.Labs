@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
-<!DOCTYPE TimeTable SYSTEM "lessons_DTD.dtd">
+<!DOCTYPE Timetable SYSTEM "lessons_DTD.dtd">
 
 <Timetable>
 	<Courses>

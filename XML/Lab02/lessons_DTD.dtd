@@ -8,4 +8,4 @@
 <!ELEMENT DateEnd (#PCDATA)>
 <!ELEMENT Lecturer (#PCDATA)>
 <!ELEMENT Hours (#PCDATA)>
-<!ATTLIST Course id #REQUIRED>
+<!ATTLIST Course id CDATA #REQUIRED>
