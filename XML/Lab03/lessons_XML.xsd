@@ -6,7 +6,7 @@
 				<xs:element name="Courses">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="Course">
+							<xs:element maxOccurs="unbounded" name="Course">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="Name" type="xs:string"/>
