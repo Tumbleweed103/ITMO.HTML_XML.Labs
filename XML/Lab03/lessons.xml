@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 
-<Timetable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="lessons_XML.xsd">
+<Timetable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lessons_XML.xsd">
 	<Courses>
 		<Course id = "1">
 			<Name>Технологии программирования</Name>
