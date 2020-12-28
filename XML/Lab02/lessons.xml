@@ -1,49 +1,49 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 <!DOCTYPE TimeTable SYSTEM "lessons_DTD.dtd">
 
-<lessons:Timetable xmlns:lessons = "http://www.itmo.ru/xml/lessons">
-	<lessons:Courses>
-		<lessons:Course id = "1">
-			<lessons:Name>Технологии программирования</lessons:Name>
-			<lessons:DateBegin>29.09.2020</lessons:DateBegin>
-			<lessons:DateEnd>16.10.2020</lessons:DateEnd>
-			<lessons:Lecturer>Осипов Н.А.</lessons:Lecturer>
-			<lessons:Hours>50</lessons:Hours>
-		</lessons:Course>
-		<lessons:Course id = "2">
-			<lessons:Name>Программирование на C#</lessons:Name>
-			<lessons:DateBegin>19.10.2020</lessons:DateBegin>
-			<lessons:DateEnd>06.11.2020</lessons:DateEnd>
-			<lessons:Lecturer>Осипов Н.А.</lessons:Lecturer>
-			<lessons:Hours>50</lessons:Hours>
-		</lessons:Course>
-		<lessons:Course id = "3">
-			<lessons:Name>Введение в базы данных</lessons:Name>
-			<lessons:DateBegin>09.11.2020</lessons:DateBegin>
-			<lessons:DateEnd>20.11.2020</lessons:DateEnd>
-			<lessons:Lecturer>Осетрова И.С.</lessons:Lecturer>
-			<lessons:Hours>30</lessons:Hours>
-		</lessons:Course>
-		<lessons:Course id = "4">
-			<lessons:Name>Разработка Windows-приложений на C#</lessons:Name>
-			<lessons:DateBegin>23.11.2020</lessons:DateBegin>
-			<lessons:DateEnd>11.12.2020</lessons:DateEnd>
-			<lessons:Lecturer>Смольянинов А.В.</lessons:Lecturer>
-			<lessons:Hours>50</lessons:Hours>
-		</lessons:Course>
-		<lessons:Course id = "5">
-			<lessons:Name>Основы технологий разметки(HTML, XML)</lessons:Name>
-			<lessons:DateBegin>14.12.2020</lessons:DateBegin>
-			<lessons:DateEnd>18.12.2020</lessons:DateEnd>
-			<lessons:Lecturer>Смольянинов А.В.</lessons:Lecturer>
-			<lessons:Hours>20</lessons:Hours>
-		</lessons:Course>
-		<lessons:Course id = "6">
-			<lessons:Name>Transact-SQL и Разработка Microsoft SQL Server</lessons:Name>
-			<lessons:DateBegin>21.12.2020</lessons:DateBegin>
-			<lessons:DateEnd>29.12.2020</lessons:DateEnd>
-			<lessons:Lecturer>Ямщиков Д.В.</lessons:Lecturer>
-			<lessons:Hours>25</lessons:Hours>
-		</lessons:Course>
-	</lessons:Courses>
-</lessons:Timetable>
+<Timetable>
+	<Courses>
+		<Course id = "1">
+			<Name>Технологии программирования</Name>
+			<DateBegin>29.09.2020</DateBegin>
+			<DateEnd>16.10.2020</DateEnd>
+			<Lecturer>Осипов Н.А.</Lecturer>
+			<Hours>50</Hours>
+		</Course>
+		<Course id = "2">
+			<Name>Программирование на C#</Name>
+			<DateBegin>19.10.2020</DateBegin>
+			<DateEnd>06.11.2020</DateEnd>
+			<Lecturer>Осипов Н.А.</Lecturer>
+			<Hours>50</Hours>
+		</Course>
+		<Course id = "3">
+			<Name>Введение в базы данных</Name>
+			<DateBegin>09.11.2020</DateBegin>
+			<DateEnd>20.11.2020</DateEnd>
+			<Lecturer>Осетрова И.С.</Lecturer>
+			<Hours>30</Hours>
+		</Course>
+		<Course id = "4">
+			<Name>Разработка Windows-приложений на C#</Name>
+			<DateBegin>23.11.2020</DateBegin>
+			<DateEnd>11.12.2020</DateEnd>
+			<Lecturer>Смольянинов А.В.</Lecturer>
+			<Hours>50</Hours>
+		</Course>
+		<Course id = "5">
+			<Name>Основы технологий разметки(HTML, XML)</Name>
+			<DateBegin>14.12.2020</DateBegin>
+			<DateEnd>18.12.2020</DateEnd>
+			<Lecturer>Смольянинов А.В.</Lecturer>
+			<Hours>20</Hours>
+		</Course>
+		<Course id = "6">
+			<Name>Transact-SQL и Разработка Microsoft SQL Server</Name>
+			<DateBegin>21.12.2020</DateBegin>
+			<DateEnd>29.12.2020</DateEnd>
+			<Lecturer>Ямщиков Д.В.</Lecturer>
+			<Hours>25</Hours>
+		</Course>
+	</Courses>
+</Timetable>

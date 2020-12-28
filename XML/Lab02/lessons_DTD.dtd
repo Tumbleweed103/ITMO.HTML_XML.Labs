@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT lessons:Timetable (lessons:Course)+>
-<!ATTLIST lessons:Timetable
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
-
-<!ELEMENT lessons:Course (lessons:Name,lessons:DateBegin,
-                          lessons:DateEnd,lessons:Lecturer,
-                          lessons:Hours)>
-<!ATTLIST lessons:Course
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'
-  id CDATA #REQUIRED>
-
-<!ELEMENT lessons:Name (#PCDATA)>
-<!ATTLIST lessons:Name
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
-
-<!ELEMENT lessons:DateBegin (#PCDATA)>
-<!ATTLIST lessons:DateBegin
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
-
-<!ELEMENT lessons:DateEnd (#PCDATA)>
-<!ATTLIST lessons:DateEnd
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
-
-<!ELEMENT lessons:Lecturer (#PCDATA)>
-<!ATTLIST lessons:Lecturer
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
-
-<!ELEMENT lessons:Hours (#PCDATA)>
-<!ATTLIST lessons:Hours
-  xmlns:lessons CDATA #FIXED 'http://www.itmo.ru/xml/lessons'>
+<!ELEMENT Timetable (Courses+)>
+<!ELEMENT courses (Course+)>
+<!ELEMENT course (Name, DateBegin, DateEnd, Lecturer, Hours)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT DateBegin (#PCDATA)>
+<!ELEMENT DateEnd (#PCDATA)>
+<!ELEMENT Lecturer (#PCDATA)>
+<!ELEMENT Hours (#PCDATA)>
+<!ATTLIST Course id #REQUIRED>
