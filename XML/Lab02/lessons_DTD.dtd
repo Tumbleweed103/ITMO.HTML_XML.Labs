@@ -2,7 +2,7 @@
 
 <!ELEMENT Timetable (Courses+)>
 <!ELEMENT Courses (Course+)>
-<!ELEMENT Course (Name, DateBegin, DateEnd, Lecturer, Hours)>
+<!ELEMENT Course (Name+, DateBegin+, DateEnd+, Lecturer+, Hours+)>
 <!ELEMENT Name (#PCDATA)>
 <!ELEMENT DateBegin (#PCDATA)>
 <!ELEMENT DateEnd (#PCDATA)>
