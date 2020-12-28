@@ -91,6 +91,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{FD5251
 		CSS\Lab01\images\button_3.png = CSS\Lab01\images\button_3.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab02", "Lab02", "{96DB4E4F-EC59-45F4-B72A-7F701A640FED}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab02\about_buttons.html = CSS\Lab02\about_buttons.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +114,7 @@ Global
 		{4B086765-9382-4713-A91A-0DD0882E5959} = {C8D03D85-5383-49A4-AEA4-10A336B14D8D}
 		{B6BBBC76-F379-438A-9F40-D5D92BDF65C1} = {DB6EE1D1-874C-4802-B396-43D9B8BD8D8F}
 		{FD525175-79EE-493A-BF03-2D99BDBFDE8E} = {B6BBBC76-F379-438A-9F40-D5D92BDF65C1}
+		{96DB4E4F-EC59-45F4-B72A-7F701A640FED} = {DB6EE1D1-874C-4802-B396-43D9B8BD8D8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0268EFEE-3DBF-4ED3-9399-8E33A80C2096}
